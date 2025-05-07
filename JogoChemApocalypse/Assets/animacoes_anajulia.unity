@@ -120,6 +120,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &2382834
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,6 +215,8 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &22104218
@@ -311,11 +314,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Children:
   - {fileID: 2382835}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 =======
+=======
+>>>>>>> Stashed changes
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
@@ -412,6 +418,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &270358239
 GameObject:
@@ -506,8 +515,11 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &804426206
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &333436851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -651,6 +663,9 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d738e80c4a7bbc149816f1025bc27739, type: 3}
 --- !u!1 &1940809883
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,15 +675,21 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - component: {fileID: 804426207}
   - component: {fileID: 804426210}
   - component: {fileID: 804426209}
   - component: {fileID: 804426208}
 =======
+=======
+>>>>>>> Stashed changes
   - component: {fileID: 1940809887}
   - component: {fileID: 1940809886}
   - component: {fileID: 1940809885}
   - component: {fileID: 1940809884}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Capsule
@@ -677,6 +698,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!4 &804426207
 Transform:
@@ -697,13 +719,20 @@ Transform:
 =======
 --- !u!136 &1940809884
 >>>>>>> Stashed changes
+=======
+--- !u!136 &1940809884
+>>>>>>> Stashed changes
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 804426206}
+=======
+  m_GameObject: {fileID: 1940809883}
+>>>>>>> Stashed changes
 =======
   m_GameObject: {fileID: 1940809883}
 >>>>>>> Stashed changes
@@ -724,7 +753,11 @@ CapsuleCollider:
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!23 &804426209
+=======
+--- !u!23 &1940809885
+>>>>>>> Stashed changes
 =======
 --- !u!23 &1940809885
 >>>>>>> Stashed changes
@@ -734,7 +767,11 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 804426206}
+=======
+  m_GameObject: {fileID: 1940809883}
+>>>>>>> Stashed changes
 =======
   m_GameObject: {fileID: 1940809883}
 >>>>>>> Stashed changes
@@ -777,7 +814,11 @@ MeshRenderer:
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!33 &804426210
+=======
+--- !u!33 &1940809886
+>>>>>>> Stashed changes
 =======
 --- !u!33 &1940809886
 >>>>>>> Stashed changes
@@ -787,9 +828,12 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 804426206}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 =======
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 1940809883}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1940809887
@@ -807,6 +851,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -815,9 +862,15 @@ SceneRoots:
   - {fileID: 270358242}
   - {fileID: 22104220}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   - {fileID: 1940809887}
   - {fileID: 129332922}
   - {fileID: 333436851}
   - {fileID: 1884371048}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
