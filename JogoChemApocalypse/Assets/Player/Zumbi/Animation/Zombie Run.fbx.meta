@@ -3,7 +3,22 @@ guid: bc7f848577c09cb4cb6f137158a0e3fc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: world_war_zombie_diffuse
+    second: {fileID: 2800000, guid: f5d207cc5dfec7f40b521d902a6a16a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: world_war_zombie_normal
+    second: {fileID: 2800000, guid: e36ff31d4ecd5e74e9dc872040829354, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: world_war_zombie_specular
+    second: {fileID: 2800000, guid: bf4bc626ca0d50247a8a3e9515ab9da9, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
