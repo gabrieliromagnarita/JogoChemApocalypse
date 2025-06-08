@@ -42,3 +42,27 @@ public class EnemyAI : MonoBehaviour
         // Aqui você pode chamar uma função que diminui a vida do player, por exemplo.
     }
 }
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
+
+public class NavMesh3 : MonoBehaviour
+{
+    [SerializeField] private NavMeshAgent inimigo;
+    private Transform player;
+
+    void Start()
+    {
+        player = GameObject.Find("Player").transform;
+    }
+
+    void Update()
+    {
+        inimigo.SetDestination(player.position);
+    }
+}
