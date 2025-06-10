@@ -6,8 +6,8 @@ public class gameOver : MonoBehaviour
 {
     public GameObject gameOverUI;
 
-    public void gameOver
-    {
+    //public void gameOver
+    //{
         
-    }
+    //}
 }
