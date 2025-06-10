@@ -7847,7 +7847,7 @@ MonoBehaviour:
   speed: 5
   jumpForce: 8
   gravity: -9.81
-  cameraTransform: {fileID: 0}
+  cameraTransform: {fileID: 963194228}
   mouseSensitivity: 2
 --- !u!136 &1320542405
 CapsuleCollider:
@@ -8938,15 +8938,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ebb1f2af421d76c40a2b4dac273eb7bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 400.32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebb1f2af421d76c40a2b4dac273eb7bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.077
+      value: 66.16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebb1f2af421d76c40a2b4dac273eb7bb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.07
+      value: 646.29
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebb1f2af421d76c40a2b4dac273eb7bb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10299,15 +10299,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cc09cef6d724d1f4bbf94c0512a7aaea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.72
+      value: 392.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cc09cef6d724d1f4bbf94c0512a7aaea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 63.41
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cc09cef6d724d1f4bbf94c0512a7aaea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.69
+      value: 643.14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cc09cef6d724d1f4bbf94c0512a7aaea, type: 3}
       propertyPath: m_LocalRotation.w
