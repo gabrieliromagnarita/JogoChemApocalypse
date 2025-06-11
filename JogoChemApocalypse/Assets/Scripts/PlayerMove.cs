@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
+    public int vidaMax = 5;
+    public int vidaAtual;
+
+    public scriptVida scriptVida;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     // Referência ao CharacterController da Unity
     private CharacterController controller;
@@ -39,6 +43,8 @@ public class PlayerMove : MonoBehaviour
 
     void Start()
     {
+        vidaAtual = vidaMax;
+        scriptVida.setVidaMax(vidaMax);
         // Pegando os componentes necessários na cena
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
@@ -49,6 +55,10 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            LevarDano(1);
+        }
 
         Move();
         // ----------- PULO ---------------------
@@ -118,4 +128,10 @@ public class PlayerMove : MonoBehaviour
     {
         isAttacking = false;
     }
+    void LevarDano(int dano)
+    {
+        vidaAtual -= dano;
+        scriptVida.setVida(vidaAtual);
+    }
+
 }
