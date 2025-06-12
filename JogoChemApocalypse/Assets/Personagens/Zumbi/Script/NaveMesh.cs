@@ -13,6 +13,6 @@ public class NaveMesh : MonoBehaviour {
 
     void Update()
     {
-        inimigo.SetDestination(player.position);
+        //inimigo.SetDestination(player.position);
     }
 }

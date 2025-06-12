@@ -16,8 +16,8 @@ public class gameOver : MonoBehaviour
         
     }
 
-    public void gameOver()
+    /*public void gameOver()
     {
         gameOverUI.SetActive(true);
-    }
+    }*/
 }
