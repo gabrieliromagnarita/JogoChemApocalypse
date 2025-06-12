@@ -8132,7 +8132,7 @@ PrefabInstance:
       addedObject: {fileID: 1320542405}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4ec62b22cfa054e49b1c2483ab9be1c3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1320542404}
+      addedObject: {fileID: 1320542408}
   m_SourcePrefab: {fileID: 100100000, guid: 4ec62b22cfa054e49b1c2483ab9be1c3, type: 3}
 --- !u!1 &1320542402 stripped
 GameObject:
@@ -8144,26 +8144,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4ec62b22cfa054e49b1c2483ab9be1c3, type: 3}
   m_PrefabInstance: {fileID: 1320542401}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1320542404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320542402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc8f288f514fede49b409e92399c86f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vidaMax: 5
-  vidaAtual: 0
-  scriptVida: {fileID: 279006824}
-  speed: 5
-  jumpForce: 8
-  gravity: -9.81
-  cameraTransform: {fileID: 963194228}
-  mouseSensitivity: 2
 --- !u!136 &1320542405
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8234,6 +8214,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1320542408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320542402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60985f8425c04104a892116956a829fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15
+  jumpForce: 8
+  gravity: -9.81
+  cameraTransform: {fileID: 963194228}
+  mouseSensitivity: 2
 --- !u!1001 &1329464991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9556,6 +9553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09370f21312932142bd1f887839d1490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverUI: {fileID: 0}
 --- !u!4 &1523414053
 Transform:
   m_ObjectHideFlags: 0
