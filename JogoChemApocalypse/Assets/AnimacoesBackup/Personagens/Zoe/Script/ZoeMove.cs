@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
-public class PlayerMove : MonoBehaviour
+public class ZoeMove : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     // Referência ao CharacterController da Unity
