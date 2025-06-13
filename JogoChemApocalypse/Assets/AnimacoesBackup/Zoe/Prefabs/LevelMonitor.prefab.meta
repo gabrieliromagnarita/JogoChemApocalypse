@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c2ac550a04f5cf445aa2d216287319fb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187402
+  packageName: Muryotaisu
+  packageVersion: 1.0
+  assetPath: Assets/Mryotaisu/Prefabs/LevelMonitor.prefab
+  uploadId: 412526

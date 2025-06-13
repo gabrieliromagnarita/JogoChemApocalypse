@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e0906918637efb843b1a3ed85cf78c82
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217443
+  packageName: 'Akio: Highschool Uniform'
+  packageVersion: 1.0.1
+  assetPath: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/VRM10Shaders.shadervariants
+  uploadId: 502152

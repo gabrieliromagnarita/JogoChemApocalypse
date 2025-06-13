@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ac5e9e40b0c8d3b459302ec13c642af1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187402
+  packageName: Muryotaisu
+  packageVersion: 1.0
+  assetPath: Assets/Mryotaisu/Prefabs/LevelWall.prefab
+  uploadId: 412526

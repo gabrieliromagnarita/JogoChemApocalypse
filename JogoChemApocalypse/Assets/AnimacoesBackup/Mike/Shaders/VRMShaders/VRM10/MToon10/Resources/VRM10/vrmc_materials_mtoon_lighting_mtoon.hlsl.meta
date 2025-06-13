@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: c99e57ae8499cdb4596d6f23dfe93e6d
+timeCreated: 1622449184
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217443
+  packageName: 'Akio: Highschool Uniform'
+  packageVersion: 1.0.1
+  assetPath: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Resources/VRM10/vrmc_materials_mtoon_lighting_mtoon.hlsl
+  uploadId: 502152

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fca0935d919a00247b2e0b76213727a9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217443
+  packageName: 'Akio: Highschool Uniform'
+  packageVersion: 1.0.1
+  assetPath: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Runtime/Texture/Importer/SamplerParam.cs
+  uploadId: 502152

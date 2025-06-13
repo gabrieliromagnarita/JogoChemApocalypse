@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3a59f6c7546964f48b725a1706fc20db
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217443
+  packageName: 'Akio: Highschool Uniform'
+  packageVersion: 1.0.1
+  assetPath: Assets/Novacorp Studios/Shaders/VRMShaders/VRM10/MToon10/Editor/MToonInspector.cs
+  uploadId: 502152

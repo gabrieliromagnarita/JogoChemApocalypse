@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1b73bdd809b9287428928439e83e11e4
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217443
+  packageName: 'Akio: Highschool Uniform'
+  packageVersion: 1.0.1
+  assetPath: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Editor/VRMShaders.GLTF.IO.Editor.asmdef
+  uploadId: 502152

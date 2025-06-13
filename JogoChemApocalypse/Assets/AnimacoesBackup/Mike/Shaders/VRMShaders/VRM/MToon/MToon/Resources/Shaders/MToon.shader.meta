@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5ff7282a73a266c4eb9803ed47eebf28
+timeCreated: 1514111466
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217443
+  packageName: 'Akio: Highschool Uniform'
+  packageVersion: 1.0.1
+  assetPath: Assets/Novacorp Studios/Shaders/VRMShaders/VRM/MToon/MToon/Resources/Shaders/MToon.shader
+  uploadId: 502152

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 66560f8b55f9e1b46aaf7920485763d1
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217443
+  packageName: 'Akio: Highschool Uniform'
+  packageVersion: 1.0.1
+  assetPath: Assets/Novacorp Studios/Shaders/VRMShaders/GLTF/IO/Resources/UniGLTF/StandardMapExporter.shader
+  uploadId: 502152
