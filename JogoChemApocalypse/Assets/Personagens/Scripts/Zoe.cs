@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Zoe : MonoBehaviour
 {
@@ -33,19 +34,29 @@ public class Zoe : MonoBehaviour
 
     // Para controlar ataque (gatilho da animação)
     private bool isAttacking = false;
+    public int vidaMax = 5;
+    public int vidaAtual;
+
+    public scriptVida barraDeVida; // arraste no Inspector
+    public GameObject gameOverUI;
 
     void Start()
     {
-        // Pegando os componentes necessários na cena
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
 
-        // Bloqueia e esconde o cursor no centro da tela
         Cursor.lockState = CursorLockMode.Locked;
+
+        vidaAtual = vidaMax;
+        barraDeVida.setVidaMax(vidaMax);
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            TomarDano(1);
+        }
 
         Move();
         // ----------- PULO ---------------------
@@ -85,7 +96,26 @@ public class Zoe : MonoBehaviour
         // Roda a câmera verticalmente (limitada para não girar demais)
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -80f, 80f);
-        cameraTransform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        Quaternion quaternion = Quaternion.Euler(xRotation, 0f, 0f);
+        cameraTransform.localRotation = quaternion;
+    }
+
+    public void TomarDano(int dano)
+    {
+        vidaAtual -= dano;
+        barraDeVida.setVida(vidaAtual);
+
+        if (vidaAtual <= 0)
+        {
+            Morrer();
+        }
+    }
+
+    void Morrer()
+    {
+        Time.timeScale = 0f; // Pausa o jogo
+        gameOverUI.SetActive(true); // Mostra a UI de Game Over
+        Cursor.lockState = CursorLockMode.None; // Libera o cursor para usar a UI
     }
 
     public void Move()

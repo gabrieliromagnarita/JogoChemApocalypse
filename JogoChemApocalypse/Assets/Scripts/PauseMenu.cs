@@ -1,17 +1,22 @@
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
     public static bool JogoPausado = false;
     public GameObject pauseMenuUI;
 
+    void Start()
+    {
+        pauseMenuUI.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.K))
         {
-            if (JogoPausado = true)
+            if (JogoPausado)
             {
                 Voltar();
             }
@@ -22,7 +27,18 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    void Voltar()
+    public void chamaMenu()
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene("telaMenu");
+    }
+
+    public void sair()
+    {
+        Application.Quit();
+    }
+
+    public void Voltar()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1.0f;
