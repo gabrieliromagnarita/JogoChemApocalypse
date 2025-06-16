@@ -37,7 +37,7 @@ public class Zoe : MonoBehaviour
     public int vidaMax = 5;
     public int vidaAtual;
 
-    public scriptVida barraDeVida; // arraste no Inspector
+    public healthNew barraDeVida;
     public GameObject gameOverUI;
 
     void Start()
